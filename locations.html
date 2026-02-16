@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Locations – Eclat Synergy</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+  <style>
+    /* Simple table styling for this page only */
+    table.locations {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .locations th,
+    .locations td {
+      padding: 0.5rem;
+      border: 1px solid var(--color-gray);
+    }
+    .locations th {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+    }
+    .locations tbody tr:nth-child(even) {
+      background-color: var(--color-gray);
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo"><h1><a href="index.html">Eclat&nbsp;Synergy</a></h1></div>
+      <nav id="main-nav" class="nav" aria-label="Main navigation">
+        <button id="menu-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <ul class="menu">
+          <li><a href="about.html">About Us</a></li>
+          <li class="has-dropdown">
+            <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Our Services</button>
+            <ul class="dropdown" role="menu">
+              <li><a href="nin.html">NIN Enrolment</a></li>
+              <li><a href="bvn.html">BVN Enrolment</a></li>
+              <li><a href="mailbox.html">Mail Box Rental</a></li>
+              <li><a href="fulfilment.html">Fulfilment Services</a></li>
+              <li><a href="notarisation.html">Notarisation Services</a></li>
+              <li><a href="passport.html">Nigerian Passport Processing</a></li>
+              <li><a href="post.html">Post Items Worldwide</a></li>
+              <li><a href="rentals.html">Car/Van Rentals</a></li>
+            </ul>
+          </li>
+          <li><a href="locations.html">Our Locations</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container reveal fade-in">
+    <h2>Our Locations</h2>
+    <p>Find your nearest Eclat Synergy service centre. Click the phone numbers to call us directly.</p>
+    <table class="locations">
+      <thead>
+        <tr>
+          <th>Region</th>
+          <th>Location</th>
+          <th>Address</th>
+          <th>Telephone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- United Kingdom - Scotland -->
+        <tr>
+          <td rowspan="3">Scotland</td>
+          <td>Aberdeen</td>
+          <td>64–66 Holburn Street, AB10 6AP</td>
+          <td><a href="tel:+447459788558">+44 7459 788 558</a></td>
+        </tr>
+        <tr>
+          <td>Glasgow</td>
+          <td>110 Glenfinnan Road, G20 8JH</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <tr>
+          <td>Edinburgh</td>
+          <td>16 Milligan Drive, EH16 4WJ</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <!-- United Kingdom - England -->
+        <tr>
+          <td rowspan="10">England</td>
+          <td>Hemel Hempstead</td>
+          <td>6 Bulbourne House, HP1 1AP</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <tr>
+          <td>Milton Keynes</td>
+          <td>122 Shenley Road, MK3 7AJ</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <tr>
+          <td>Birmingham</td>
+          <td>95 Johnson Road, Erdington, B23 6PX</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <tr>
+          <td>Bradford</td>
+          <td>55 Godwin Street, BD1 2SH</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <tr>
+          <td>Hull</td>
+          <td>29 Coultas Court, HU3 6PZ</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <tr>
+          <td>Derby</td>
+          <td>–</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <tr>
+          <td>Luton</td>
+          <td>–</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <tr>
+          <td>Gloucester</td>
+          <td>–</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <tr>
+          <td>Ipswich</td>
+          <td>–</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <!-- Wales -->
+        <tr>
+          <td>Wales</td>
+          <td>Swansea</td>
+          <td>70 Neath Road, SA1 2HW</td>
+          <td><a href="tel:+447450444858">+44 7450 444 858</a></td>
+        </tr>
+        <!-- Germany -->
+        <tr>
+          <td>Germany</td>
+          <td>Kassel</td>
+          <td>–</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>If your city isn't listed, please contact us for updates on new centres.</p>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Eclat Synergy. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

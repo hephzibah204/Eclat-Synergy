@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- viewport meta for responsive design as recommended by web.dev【5059997336344†L159-L167】 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eclat Synergy – Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <!-- Company Logo or Title -->
+        <h1><a href="index.html">Eclat&nbsp;Synergy</a></h1>
+      </div>
+      <!-- Accessible navigation menu -->
+      <nav id="main-nav" class="nav" aria-label="Main navigation">
+        <button id="menu-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          ☰
+        </button>
+        <ul class="menu">
+          <li><a href="about.html">About Us</a></li>
+          <li class="has-dropdown">
+            <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              Our Services
+            </button>
+            <ul class="dropdown" role="menu">
+              <li><a href="nin.html">NIN Enrolment</a></li>
+              <li><a href="bvn.html">BVN Enrolment</a></li>
+              <li><a href="mailbox.html">Mail Box Rental</a></li>
+              <li><a href="fulfilment.html">Fulfilment Services</a></li>
+              <li><a href="notarisation.html">Notarisation Services</a></li>
+              <li><a href="passport.html">Nigerian Passport Processing</a></li>
+              <li><a href="post.html">Post Items Worldwide</a></li>
+              <li><a href="rentals.html">Car/Van Rentals</a></li>
+            </ul>
+          </li>
+          <li><a href="locations.html">Our Locations</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Hero section with reveal animation -->
+  <section class="hero reveal fade-in">
+    <div class="container">
+      <h2>Empowering Nigerians Abroad</h2>
+      <p>Providing identity management, travel documentation, business services and more – all from one trusted partner.</p>
+      <a href="#services" class="btn-primary">Explore Our Services</a>
+    </div>
+  </section>
+  <!-- About section -->
+  <main id="about" class="container">
+    <section>
+      <h2>About Us</h2>
+      <p>Eclat Synergy specialises in supporting Nigerians in the diaspora. Through our sister company FUWA Agribusiness we are licensed to provide National Identity Number (NIN) enrolment services. We also assist with Nigerian passport issuance and business registration, operate fulfilment services for deliveries, run car/van rentals through our Drivalia franchise and offer document notarisation.</p>
+    </section>
+    <!-- Our Story snippet -->
+    <section id="story" class="reveal fade-in">
+      <h2>Our Story</h2>
+      <p>Eclat Synergy was founded to empower Nigerians in the diaspora. We work with official agencies to provide identity enrolment, documentation assistance and trusted logistics services. Read about our mission, values and vision in our detailed <a href="about.html">About Us</a> page.</p>
+    </section>
+
+    <!-- Services highlights with reveal animations and hover effects -->
+    <section id="services" class="reveal fade-in">
+      <h2>Our Services</h2>
+      <div class="cards services-grid">
+        <article class="card">
+          <h3>NIN Enrolment</h3>
+          <p>Get your National Identity Number or update existing details.</p>
+          <a href="nin.html" class="btn-secondary">Learn more</a>
+        </article>
+        <article class="card">
+          <h3>BVN Enrolment</h3>
+          <p>Enroll for your Bank Verification Number and protect your accounts.</p>
+          <a href="bvn.html" class="btn-secondary">Learn more</a>
+        </article>
+        <article class="card">
+          <h3>Mail Box Rental</h3>
+          <p>Secure your mail with a private mailbox for business or personal use.</p>
+          <a href="mailbox.html" class="btn-secondary">Learn more</a>
+        </article>
+        <article class="card">
+          <h3>Car &amp; Van Rentals</h3>
+          <p>Rent vehicles through our Drivalia franchise for flexible mobility.</p>
+          <a href="rentals.html" class="btn-secondary">Learn more</a>
+        </article>
+      </div>
+    </section>
+    <!-- Locations preview -->
+    <section id="locations-preview">
+      <h2>Our Locations</h2>
+      <p>We operate centres in the UK, Wales and Germany. Visit our locations page for addresses and contact details.</p>
+      <a href="locations.html" class="btn-secondary">Find a centre</a>
+    </section>
+    <!-- Contact CTA -->
+    <section class="contact-cta">
+      <h2>Ready to get started?</h2>
+      <p>Whether you need to enrol for NIN or BVN, rent a mailbox or hire a vehicle, we’re here to help.</p>
+      <a href="contact.html" class="btn-primary">Contact Us</a>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Eclat Synergy. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
