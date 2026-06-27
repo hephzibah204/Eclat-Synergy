@@ -2,112 +2,628 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <!-- viewport meta for responsive design as recommended by web.dev【5059997336344†L159-L167】 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eclat Synergy – Home</title>
+  <title>NIN Enrolment UK – Nigerian Identity &amp; Diaspora Services | Eclat Synergy</title>
+  <meta name="description" content="Eclat Synergy helps Nigerians in the UK, Wales and Germany with NIN & BVN enrolment, passport assistance, notarisation, mailbox rental and vehicle hire." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%234F46E5'/><text y='22' x='5' font-size='18' fill='white' font-family='sans-serif' font-weight='bold'>E</text></svg>" />
   <link rel="stylesheet" href="css/style.css" />
   <script defer src="js/script.js"></script>
+
+  <link rel="canonical" href="https://eclatsynergy.com/" />
+  <meta property="og:title"       content="Eclat Synergy – Empowering Nigerians Abroad" />
+  <meta property="og:description" content="NIN & BVN enrolment, passport processing, notarisation and more – all from one trusted partner across Scotland, England, Wales and Germany." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://eclatsynergy.com/index.html" />
+  <meta property="og:site_name"   content="Eclat Synergy" />
+  <meta property="og:image"       content="https://eclatsynergy.com/images/og-cover.jpg" />
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Eclat Synergy – Empowering Nigerians Abroad" />
+  <meta name="twitter:description" content="NIN & BVN enrolment, passport processing, notarisation and more – all from one trusted partner across Scotland, England, Wales and Germany." />
+  <meta name="twitter:image"       content="https://eclatsynergy.com/images/og-cover.jpg" />
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Eclat Synergy",
+    "url": "https://eclatsynergy.com",
+    "telephone": "+447450444858",
+    "email": "info@eclatsynergy.com",
+    "areaServed": [
+        "GB",
+        "DE"
+    ],
+    "description": "Identity management, travel documentation and business services for Nigerians in the diaspora."
+}
+  </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Eclat Synergy",
+  "url": "https://eclatsynergy.com",
+  "telephone": "+447450444858",
+  "email": "info@eclatsynergy.com",
+  "description": "NIMC-licensed NIN & BVN enrolment, passport processing, notarisation and diaspora services for Nigerians in the UK and Germany.",
+  "areaServed": ["GB", "DE"],
+  "openingHoursSpecification": [
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:00","closes":"15:00"}
+  ],
+  "address": {"@type":"PostalAddress","addressCountry":"GB"},
+  "priceRange": "££",
+  "hasMap": "https://eclatsynergy.com/locations.html"
+}
+</script>
+<link rel="alternate" hreflang="en-GB" href="https://eclatsynergy.com/"/>
+<link rel="alternate" hreflang="en-DE" href="https://eclatsynergy.com/"/>
+<link rel="alternate" hreflang="x-default" href="https://eclatsynergy.com/"/>
+  <meta name="theme-color" content="#0F172A" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="manifest" href="manifest.json" />
 </head>
 <body>
-  <header class="site-header">
+
+  <!-- Skip to main content -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ── Navbar (shared across all pages) ── -->
+<header class="navbar" role="banner">
+  <div class="container nav-container">
+    <a href="index.html" class="nav-logo">Eclat <span class="accent">Synergy</span></a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="about.html">About Us</a></li>
+        <li class="has-mega-menu">
+          <button class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="mega-services">
+            Our Services
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+          </button>
+          <div class="mega-menu" id="mega-services" role="region" aria-label="Our Services">
+            <div class="mega-inner">
+
+              <!-- Col 1: NIN Services -->
+              <div class="mega-col">
+                <p class="mega-col-heading">NIN Services</p>
+                <ul>
+                  <li><a href="nin.html"><span class="mega-link-icon">🪪</span> NIN Enrolment (New)</a></li>
+                  <li><a href="nin-modification.html"><span class="mega-link-icon">✏️</span> NIN Modification</a></li>
+                  <li><a href="nin-slip-retrieval.html"><span class="mega-link-icon">🔍</span> NIN Slip Retrieval</a></li>
+                  <li><a href="nin-children.html"><span class="mega-link-icon">👶</span> Enrolment for Children</a></li>
+                  <li><a href="bvn.html"><span class="mega-link-icon">🔗</span> NIN–BVN Linkage</a></li>
+                </ul>
+              </div>
+
+              <!-- Col 2: Related Services -->
+              <div class="mega-col">
+                <p class="mega-col-heading">Related Services</p>
+                <ul>
+                  <li><a href="bvn.html"><span class="mega-link-icon">🏦</span> BVN Enrolment</a></li>
+                  <li><a href="passport.html"><span class="mega-link-icon">✈️</span> Passport Processing</a></li>
+                  <li><a href="notarisation.html"><span class="mega-link-icon">📜</span> Notarisation</a></li>
+                  <li><a href="mailbox.html"><span class="mega-link-icon">📬</span> Mailbox Rental</a></li>
+                  <li><a href="fulfilment.html"><span class="mega-link-icon">📦</span> Fulfilment Services</a></li>
+                  <li><a href="post.html"><span class="mega-link-icon">🌍</span> Post Worldwide</a></li>
+                  <li><a href="rentals.html"><span class="mega-link-icon">🚗</span> Car &amp; Van Rentals</a></li>
+                </ul>
+              </div>
+
+              <!-- CTA Panel -->
+              <div class="mega-cta">
+                <p class="mega-cta-heading">Book an Appointment</p>
+                <p class="mega-cta-body">NIMC-licensed centres across England, Scotland, Wales &amp; Germany.</p>
+                <ul class="mega-cta-facts">
+                  <li>⏱ ~15–30 min capture</li>
+                  <li>📅 Appointment required</li>
+                  <li>📞 +447450 444858</li>
+                </ul>
+                <a href="book-appointment.html" class="btn-primary">Book Appointment</a>
+                <a href="https://wa.me/447450444858" class="btn-secondary">💬 WhatsApp Us</a>
+              </div>
+
+            </div><!-- /.mega-inner -->
+          </div><!-- /.mega-menu -->
+        </li>
+        <li><a href="locations.html">Our Locations</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="book-appointment.html" class="btn-primary nav-cta">Book Appointment</a></li>
+      </ul>
+    </nav>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-orb" aria-hidden="true"></div>
     <div class="container">
-      <div class="logo">
-        <!-- Company Logo or Title -->
-        <h1><a href="index.html">Eclat&nbsp;Synergy</a></h1>
+      <div class="hero-content reveal">
+        <div class="hero-eyebrow">
+          <span class="dot" aria-hidden="true"></span>
+          Licensed NIMC Enrolment Partner
+        </div>
+        <h1>Your Nigerian Identity &amp; Documents —<br><span class="gradient-text">Sorted from the UK</span></h1>
+        <p>NIN &amp; BVN enrolment, passport assistance, notarisation and business services for Nigerians in Scotland, England, Wales and Germany — all from one trusted partner.</p>
+        <div class="hero-buttons">
+          <a href="book-appointment.html" class="btn-primary">Book an Appointment</a>
+          <a href="#services" class="btn-secondary">Explore Our Services</a>
+        </div>
       </div>
-      <!-- Accessible navigation menu -->
-      <nav id="main-nav" class="nav" aria-label="Main navigation">
-        <button id="menu-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-          ☰
-        </button>
-        <ul class="menu">
-          <li><a href="about.html">About Us</a></li>
-          <li class="has-dropdown">
-            <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-              Our Services
-            </button>
-            <ul class="dropdown" role="menu">
-              <li><a href="nin.html">NIN Enrolment</a></li>
-              <li><a href="bvn.html">BVN Enrolment</a></li>
-              <li><a href="mailbox.html">Mail Box Rental</a></li>
-              <li><a href="fulfilment.html">Fulfilment Services</a></li>
-              <li><a href="notarisation.html">Notarisation Services</a></li>
-              <li><a href="passport.html">Nigerian Passport Processing</a></li>
-              <li><a href="post.html">Post Items Worldwide</a></li>
-              <li><a href="rentals.html">Car/Van Rentals</a></li>
-            </ul>
-          </li>
-          <li><a href="locations.html">Our Locations</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="vacancy.html">Careers</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- Hero section with reveal animation -->
-  <section class="hero reveal fade-in">
-    <div class="container">
-      <h2>Empowering Nigerians Abroad</h2>
-      <p>Providing identity management, travel documentation, business services and more – all from one trusted partner.</p>
-      <a href="#services" class="btn-primary">Explore Our Services</a>
     </div>
   </section>
-  <!-- About section -->
-  <main id="about" class="container">
-    <section>
-      <h2>About Us</h2>
-      <p>Eclat Synergy specialises in supporting Nigerians in the diaspora. Through our sister company FUWA Agribusiness we are licensed to provide National Identity Number (NIN) enrolment services. We also assist with Nigerian passport issuance and business registration, operate fulfilment services for deliveries, run car/van rentals through our Drivalia franchise and offer document notarisation.</p>
-    </section>
-    <!-- Our Story snippet -->
-    <section id="story" class="reveal fade-in">
-      <h2>Our Story</h2>
-      <p>Eclat Synergy was founded to empower Nigerians in the diaspora. We work with official agencies to provide identity enrolment, documentation assistance and trusted logistics services. Read about our mission, values and vision in our detailed <a href="about.html">About Us</a> page.</p>
-    </section>
 
-    <!-- Services highlights with reveal animations and hover effects -->
-    <section id="services" class="reveal fade-in">
-      <h2>Our Services</h2>
-      <div class="cards services-grid">
-        <article class="card">
-          <h3>NIN Enrolment</h3>
-          <p>Get your National Identity Number or update existing details.</p>
-          <a href="nin.html" class="btn-secondary">Learn more</a>
-        </article>
-        <article class="card">
-          <h3>BVN Enrolment</h3>
-          <p>Enroll for your Bank Verification Number and protect your accounts.</p>
-          <a href="bvn.html" class="btn-secondary">Learn more</a>
-        </article>
-        <article class="card">
-          <h3>Mail Box Rental</h3>
-          <p>Secure your mail with a private mailbox for business or personal use.</p>
-          <a href="mailbox.html" class="btn-secondary">Learn more</a>
-        </article>
-        <article class="card">
-          <h3>Car &amp; Van Rentals</h3>
-          <p>Rent vehicles through our Drivalia franchise for flexible mobility.</p>
-          <a href="rentals.html" class="btn-secondary">Learn more</a>
-        </article>
+  <!-- ── Trust Bar ── -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-stats">
+        <div class="trust-stat">
+          <span class="stat-number" data-target="5000" data-suffix="+">5000+</span>
+          <span class="stat-label">Clients Served</span>
+        </div>
+        <div class="trust-stat">
+          <span class="stat-number" data-target="14" data-suffix="+">14+</span>
+          <span class="stat-label">Service Centres</span>
+        </div>
+        <div class="trust-stat">
+          <span class="stat-number" data-target="3" data-suffix="">3</span>
+          <span class="stat-label">Countries</span>
+        </div>
+        <div class="trust-stat">
+          <span class="stat-number" data-target="8" data-suffix="">8</span>
+          <span class="stat-label">Services Offered</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+<div class="urgency-banner">
+  <span class="urgency-banner-icon">⚠️</span>
+  <p><strong>NIN is now mandatory</strong> for Nigerian passport applications, BVN linkage, SIM registration and most government services. If you haven't enrolled yet — <a href="book-appointment.html">book your appointment today</a>.</p>
+</div>
+
+    <!-- ── Services ── -->
+    <section id="services" class="section section-dark">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What We Offer</span>
+          <h2 class="section-title">Everything You Need, In One Place</h2>
+          <p class="section-subtitle">From identity enrolment to logistics — we've built the services Nigerians abroad need most.</p>
+        </div>
+        <div class="services-grid">
+          <a href="nin.html" class="service-card reveal delay-1">
+            <div class="card-icon">🪪</div>
+            <div class="card-title">NIN Enrolment</div>
+            <p class="card-description">Register or update your National Identity Number through our NIMC-licensed centres. First-time and modifications covered.</p>
+            <span class="card-link">Learn more →</span>
+          </a>
+          <a href="bvn.html" class="service-card reveal delay-2">
+            <div class="card-icon">🏦</div>
+            <div class="card-title">BVN Enrolment</div>
+            <p class="card-description">Secure your banking identity with a Bank Verification Number accepted across all Nigerian banks.</p>
+            <span class="card-link">Learn more →</span>
+          </a>
+          <a href="passport.html" class="service-card reveal delay-3">
+            <div class="card-icon">✈️</div>
+            <div class="card-title">Passport Processing</div>
+            <p class="card-description">Expert guidance and assistance for obtaining or renewing your Nigerian international passport from abroad.</p>
+            <span class="card-link">Learn more →</span>
+          </a>
+          <a href="notarisation.html" class="service-card reveal delay-1">
+            <div class="card-icon">📜</div>
+            <div class="card-title">Notarisation</div>
+            <p class="card-description">Get your documents notarised by approved officials for use in Nigeria, the UK or internationally.</p>
+            <span class="card-link">Learn more →</span>
+          </a>
+          <a href="mailbox.html" class="service-card reveal delay-2">
+            <div class="card-icon">📬</div>
+            <div class="card-title">Mailbox Rental</div>
+            <p class="card-description">A secure, private postal address for personal or business correspondence — collect when you're ready.</p>
+            <span class="card-link">Learn more →</span>
+          </a>
+          <a href="fulfilment.html" class="service-card reveal delay-3">
+            <div class="card-icon">📦</div>
+            <div class="card-title">Fulfilment Services</div>
+            <p class="card-description">Receive, store, pack and dispatch parcels through our Post &amp; Packing UK partnership.</p>
+            <span class="card-link">Learn more →</span>
+          </a>
+          <a href="post.html" class="service-card reveal delay-1">
+            <div class="card-icon">🌍</div>
+            <div class="card-title">Post Worldwide</div>
+            <p class="card-description">Send items to Nigeria or anywhere in the world at competitive rates through trusted couriers.</p>
+            <span class="card-link">Learn more →</span>
+          </a>
+          <a href="rentals.html" class="service-card reveal delay-2">
+            <div class="card-icon">🚗</div>
+            <div class="card-title">Car &amp; Van Rentals</div>
+            <p class="card-description">Flexible vehicle hire through our Drivalia franchise — cars and vans available in Dundee and beyond.</p>
+            <span class="card-link">Learn more →</span>
+          </a>
+        </div>
       </div>
     </section>
-    <!-- Locations preview -->
-    <section id="locations-preview">
-      <h2>Our Locations</h2>
-      <p>We operate centres in the UK, Wales and Germany. Visit our locations page for addresses and contact details.</p>
-      <a href="locations.html" class="btn-secondary">Find a centre</a>
+
+    <!-- ── How It Works ── -->
+    <section class="section section-mid">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-label">Simple Process</span>
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle">Getting your Nigerian documents sorted takes just four steps.</p>
+        </div>
+        <div class="how-it-works-grid">
+          <div class="hiw-step reveal delay-1">
+            <div class="hiw-number">1</div>
+            <div class="hiw-title">Choose a Service</div>
+            <p class="hiw-desc">Browse our services and pick what you need — NIN, BVN, passport and more.</p>
+          </div>
+          <div class="hiw-step reveal delay-2">
+            <div class="hiw-number">2</div>
+            <div class="hiw-title">Book Appointment</div>
+            <p class="hiw-desc">Call or WhatsApp <a href="tel:+447450444858">+447450 444858</a> to schedule at your nearest centre.</p>
+          </div>
+          <div class="hiw-step reveal delay-3">
+            <div class="hiw-number">3</div>
+            <div class="hiw-title">Visit a Centre</div>
+            <p class="hiw-desc">Bring your documents to one of our 14+ centres across the UK, Wales or Germany.</p>
+          </div>
+          <div class="hiw-step reveal delay-4">
+            <div class="hiw-number">4</div>
+            <div class="hiw-title">Job Done</div>
+            <p class="hiw-desc">We handle the rest. Receive confirmation and your documentation promptly.</p>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- Contact CTA -->
-    <section class="contact-cta">
-      <h2>Ready to get started?</h2>
-      <p>Whether you need to enrol for NIN or BVN, rent a mailbox or hire a vehicle, we’re here to help.</p>
-      <a href="contact.html" class="btn-primary">Contact Us</a>
+
+    <!-- ── Locations Preview ── -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Where We Are</span>
+          <h2 class="section-title">14+ Centres Across 3 Countries</h2>
+          <p class="section-subtitle">We're close to where you live — with locations across Scotland, England, Wales and Germany.</p>
+        </div>
+        <div class="locations-grid">
+          <div class="location-card reveal delay-1">
+            <div class="location-region">Scotland</div>
+            <div class="location-city">Aberdeen</div>
+            <div class="location-address">64–66 Holburn Street, AB10 6AP</div>
+            <a href="tel:+447459788558" class="location-phone">📞 +44 7459 788 558</a>
+          </div>
+          <div class="location-card reveal delay-2">
+            <div class="location-region">Scotland</div>
+            <div class="location-city">Glasgow</div>
+            <div class="location-address">110 Glenfinnan Road, G20 8JH</div>
+            <a href="tel:+447450444858" class="location-phone">📞 +447450 444858</a>
+          </div>
+          <div class="location-card reveal delay-3">
+            <div class="location-region">England</div>
+            <div class="location-city">Birmingham</div>
+            <div class="location-address">95 Johnson Road, Erdington, B23 6PX</div>
+            <a href="tel:+447450444858" class="location-phone">📞 +447450 444858</a>
+          </div>
+          <div class="location-card reveal delay-4">
+            <div class="location-region">Wales</div>
+            <div class="location-city">Swansea</div>
+            <div class="location-address">70 Neath Road, SA1 2HW</div>
+            <a href="tel:+447450444858" class="location-phone">📞 +447450 444858</a>
+          </div>
+        </div>
+        <p class="text-center mt-2"><a href="locations.html" class="btn-secondary">View All Locations</a></p>
+      </div>
     </section>
+
+    <!-- ── Testimonials ── -->
+    
+<section class="section section-mid">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Why Choose Us</span>
+      <h2 class="section-title">Why Nigerians in the UK Trust Eclat Synergy</h2>
+      <p class="section-subtitle">There are other services out there. Here's why hundreds of diaspora Nigerians choose us.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal delay-1">
+        <div class="why-icon">🏛️</div>
+        <div>
+          <h3>Officially NIMC-Licensed</h3>
+          <p>We are an authorised NIMC enrolment partner via FUWA Agribusiness — not an intermediary. Your data goes directly to NIMC's national database.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-icon">📍</div>
+        <div>
+          <h3>14+ Centres Across UK &amp; Germany</h3>
+          <p>Scotland, North England, Midlands, London, Wales and Germany — a centre near you, with flexible appointment times including Saturdays.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-3">
+        <div class="why-icon">👨‍👩‍👧‍👦</div>
+        <div>
+          <h3>Family Appointments</h3>
+          <p>Bring the whole family. Adults, children and newborns can all be enrolled in one visit — we allocate the right time for your group.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-1">
+        <div class="why-icon">✅</div>
+        <div>
+          <h3>High First-Time Success Rate</h3>
+          <p>Our document review before biometric capture dramatically reduces rejection and return visits. We check everything before the officer begins.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-icon">💬</div>
+        <div>
+          <h3>WhatsApp-First Support</h3>
+          <p>Got a question? WhatsApp us at <a href="https://wa.me/447450444858" style="color:var(--indigo-light)">+447450 444858</a> — real people, fast responses, no call centres.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-3">
+        <div class="why-icon">💳</div>
+        <div>
+          <h3>Transparent Pricing</h3>
+          <p>No hidden fees. Adult NIN enrolment is £50, children £40. <a href="pricing.html" style="color:var(--indigo-light)">See our full pricing →</a></p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-1">
+        <div class="why-icon">🔒</div>
+        <div>
+          <h3>GDPR-Compliant Data Handling</h3>
+          <p>Your biometric and identity data is transmitted directly to NIMC and never retained locally after processing. <a href="privacy.html" style="color:var(--indigo-light)">Read our Privacy Policy →</a></p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-icon">🌍</div>
+        <div>
+          <h3>Beyond NIN — A Full Diaspora Hub</h3>
+          <p>BVN, passport processing, notarisation, UK mailbox, worldwide shipping and car/van hire — all under one roof.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-mid">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Why Choose Us</span>
+      <h2 class="section-title">Why Nigerians in the UK Trust Eclat Synergy</h2>
+      <p class="section-subtitle">There are other services out there. Here's why hundreds of diaspora Nigerians choose us.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal delay-1">
+        <div class="why-icon">🏛️</div>
+        <div>
+          <h3>Officially NIMC-Licensed</h3>
+          <p>We are an authorised NIMC enrolment partner via FUWA Agribusiness — not an intermediary. Your data goes directly to NIMC's national database.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-icon">📍</div>
+        <div>
+          <h3>14+ Centres Across UK &amp; Germany</h3>
+          <p>Scotland, North England, Midlands, London, Wales and Germany — a centre near you, with flexible appointment times including Saturdays.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-3">
+        <div class="why-icon">👨‍👩‍👧‍👦</div>
+        <div>
+          <h3>Family Appointments</h3>
+          <p>Bring the whole family. Adults, children and newborns can all be enrolled in one visit — we allocate the right time for your group.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-1">
+        <div class="why-icon">✅</div>
+        <div>
+          <h3>High First-Time Success Rate</h3>
+          <p>Our document review before biometric capture dramatically reduces rejection and return visits. We check everything before the officer begins.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-icon">💬</div>
+        <div>
+          <h3>WhatsApp-First Support</h3>
+          <p>Got a question? WhatsApp us at <a href="https://wa.me/447450444858" style="color:var(--indigo-light)">+447450 444858</a> — real people, fast responses, no call centres.</p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-3">
+        <div class="why-icon">💳</div>
+        <div>
+          <h3>Transparent Pricing</h3>
+          <p>No hidden fees. Adult NIN enrolment is £50, children £40. <a href="pricing.html" style="color:var(--indigo-light)">See our full pricing →</a></p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-1">
+        <div class="why-icon">🔒</div>
+        <div>
+          <h3>GDPR-Compliant Data Handling</h3>
+          <p>Your biometric and identity data is transmitted directly to NIMC and never retained locally after processing. <a href="privacy.html" style="color:var(--indigo-light)">Read our Privacy Policy →</a></p>
+        </div>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-icon">🌍</div>
+        <div>
+          <h3>Beyond NIN — A Full Diaspora Hub</h3>
+          <p>BVN, passport processing, notarisation, UK mailbox, worldwide shipping and car/van hire — all under one roof.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-mid">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-label">What Clients Say</span>
+          <h2 class="section-title">Trusted by Nigerians Across the UK</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal delay-1">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"I had been putting off my NIN enrolment for two years because I didn't know how to do it from the UK. Eclat Synergy made the whole process incredibly easy. Booked, attended and done in one morning."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AO</div>
+              <div>
+                <div class="author-name">Adaeze O.</div>
+                <div class="author-location">Glasgow, Scotland</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card reveal delay-2">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Sorted my BVN and got my passport documents notarised on the same visit. The staff are knowledgeable and professional. Highly recommended for any Nigerian in the diaspora."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">EI</div>
+              <div>
+                <div class="author-name">Emeka I.</div>
+                <div class="author-location">Birmingham, England</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card reveal delay-3">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"The mailbox service has been a lifesaver for my small business. Reliable, affordable and the team always let me know when something arrives. Five stars from me."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">FK</div>
+              <div>
+                <div class="author-name">Funke K.</div>
+                <div class="author-location">Swansea, Wales</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA Banner ── -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2>Ready to Get Started?</h2>
+          <p>Book an appointment today — call or WhatsApp us and we'll sort the rest.</p>
+          <div class="cta-banner-buttons">
+            <a href="book-appointment.html" class="btn-primary">Book an Appointment</a>
+            <a href="tel:+447450444858" class="btn-secondary">📞 Call Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
+
+  <!-- ── Footer ── -->
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Eclat Synergy. All rights reserved.</p>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo-text">Eclat <span class="accent">Synergy</span></div>
+          <p>Empowering Nigerians in the diaspora with identity, documentation, logistics and mobility services across the UK, Wales and Germany.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-link" aria-label="Instagram">ig</a>
+            <a href="https://wa.me/447450444858" class="social-link" aria-label="WhatsApp">W</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="nin.html">NIN Enrolment</a></li>
+            <li><a href="bvn.html">BVN Enrolment</a></li>
+            <li><a href="passport.html">Passport Processing</a></li>
+            <li><a href="notarisation.html">Notarisation</a></li>
+            <li><a href="mailbox.html">Mailbox Rental</a></li>
+            <li><a href="fulfilment.html">Fulfilment</a></li>
+            <li><a href="post.html">Post Worldwide</a></li>
+            <li><a href="rentals.html">Car/Van Rentals</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="locations.html">Our Locations</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="careers.html">Careers</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+447450444858">+447450 444858</a></li>
+            <li><a href="mailto:info@eclatsynergy.com">info@eclatsynergy.com</a></li>
+            <li><a href="https://wa.me/447450444858">WhatsApp Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span class="js-year"></span> Eclat Synergy. All rights reserved.</p>
+        <p>Registered in England &amp; Wales. Partner of FUWA Agribusiness &amp; Drivalia.</p>
+      </div>
     </div>
   </footer>
+
+  <!-- WhatsApp FAB -->
+  <a href="https://wa.me/447450444858" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+
+<!-- ── Mobile sticky book bar ── -->
+<div class="mobile-book-bar" aria-label="Quick actions">
+  <a href="book-appointment.html" class="mbb-primary">📅 Book Appointment</a>
+  <a href="https://wa.me/447450444858" class="mbb-wa" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<!-- ── Cookie / Privacy Banner ── -->
+<div class="cookie-banner" id="cookie-banner" role="alert" aria-live="polite">
+  <p>We use essential cookies to keep this site working. By continuing you agree to our <a href="privacy.html">Privacy Policy</a>. We do not use tracking or advertising cookies.</p>
+  <div class="cookie-banner-btns">
+    <button class="cookie-accept" id="cookie-accept">Accept</button>
+    <button class="cookie-decline" id="cookie-decline">Decline</button>
+  </div>
+</div>
+
+  <!-- Cookie banner JS -->
+  <script>
+    (function(){
+      if(!localStorage.getItem('cookie-consent')){
+        document.getElementById('cookie-banner').classList.add('visible');
+      }
+      document.getElementById('cookie-accept').addEventListener('click',function(){
+        localStorage.setItem('cookie-consent','accepted');
+        document.getElementById('cookie-banner').classList.remove('visible');
+      });
+      document.getElementById('cookie-decline').addEventListener('click',function(){
+        localStorage.setItem('cookie-consent','declined');
+        document.getElementById('cookie-banner').classList.remove('visible');
+      });
+    })();
+  </script>
+
+  <!-- Active nav JS -->
+  <script>
+    (function(){
+      var path = window.location.pathname.split('/').pop() || 'index.html';
+      document.querySelectorAll('.nav-menu > li > a').forEach(function(a){
+        var href = a.getAttribute('href');
+        if(href === path || (path === '' && href === 'index.html')){
+          a.setAttribute('aria-current','page');
+        }
+      });
+    })();
+  </script>
 </body>
 </html>

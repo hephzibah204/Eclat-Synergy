@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers at Eclat Synergy | Eclat Synergy</title>
+  <meta name="description" content="Join the Eclat Synergy team. We are currently hiring a Dispatch and Distribution Manager in Aberdeen, UK. £44,900–£50,000 per annum, full-time." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%234F46E5'/><text y='22' x='5' font-size='18' fill='white' font-family='sans-serif' font-weight='bold'>E</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+  <style>
+    /* ── Careers-specific styles ─────────────────────────────── */
+    .vacancy-header {
+      background: linear-gradient(135deg, var(--navy-mid), var(--navy));
+      border: 1px solid var(--navy-border);
+      border-radius: var(--radius-lg);
+      padding: 2rem 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .vacancy-header h2 {
+      color: var(--text-light);
+      margin-bottom: .75rem;
+    }
+    .vacancy-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .65rem;
+      margin-bottom: 1.25rem;
+    }
+    .vacancy-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      background: rgba(79,70,229,.15);
+      border: 1px solid rgba(79,70,229,.3);
+      color: var(--indigo-light);
+      font-size: .82rem;
+      font-weight: 600;
+      padding: .3rem .75rem;
+      border-radius: var(--radius-pill);
+      white-space: nowrap;
+    }
+    .vacancy-badge.emerald {
+      background: rgba(16,185,129,.12);
+      border-color: rgba(16,185,129,.3);
+      color: var(--emerald);
+    }
+    .vacancy-badge.amber {
+      background: rgba(245,158,11,.12);
+      border-color: rgba(245,158,11,.3);
+      color: var(--warning);
+    }
+    .salary-highlight {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--emerald);
+      font-family: var(--font-head);
+      margin-bottom: .25rem;
+    }
+    .salary-sub {
+      font-size: .85rem;
+      color: var(--text-muted);
+    }
+
+    /* Job sections */
+    .job-section {
+      margin-bottom: 2.25rem;
+    }
+    .job-section h3 {
+      color: var(--text-light);
+      font-size: 1.1rem;
+      padding-bottom: .5rem;
+      border-bottom: 1px solid var(--navy-border);
+      margin-bottom: 1rem;
+    }
+    .job-section ul {
+      margin: 0;
+      padding-left: 1.4rem;
+    }
+    .job-section ul li {
+      color: var(--text-muted);
+      margin-bottom: .55rem;
+      line-height: 1.6;
+    }
+    .job-section ul li strong {
+      color: var(--text-light);
+    }
+
+    /* Two-column requirements */
+    .requirements-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    @media (max-width: 680px) {
+      .requirements-grid { grid-template-columns: 1fr; }
+    }
+
+    .req-card {
+      background: var(--navy-mid);
+      border: 1px solid var(--navy-border);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+    }
+    .req-card h4 {
+      color: var(--text-light);
+      margin-bottom: .85rem;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    /* Benefits grid */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .benefit-item {
+      background: rgba(16,185,129,.07);
+      border: 1px solid rgba(16,185,129,.2);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: flex-start;
+      gap: .65rem;
+    }
+    .benefit-icon {
+      font-size: 1.3rem;
+      line-height: 1;
+      flex-shrink: 0;
+      margin-top: .1rem;
+    }
+    .benefit-text {
+      color: var(--text-muted);
+      font-size: .9rem;
+      line-height: 1.5;
+    }
+    .benefit-text strong {
+      display: block;
+      color: var(--text-light);
+      font-size: .95rem;
+      margin-bottom: .15rem;
+    }
+
+    /* Apply box */
+    .apply-box {
+      background: linear-gradient(135deg, rgba(79,70,229,.18), rgba(16,185,129,.1));
+      border: 1px solid rgba(79,70,229,.35);
+      border-radius: var(--radius-lg);
+      padding: 2rem 2.5rem;
+      text-align: center;
+    }
+    .apply-box h3 {
+      color: var(--text-light);
+      font-size: 1.4rem;
+      margin-bottom: .5rem;
+    }
+    .apply-box p {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      max-width: 520px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .apply-checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .65rem;
+    }
+    .apply-checklist li {
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--navy-border);
+      border-radius: var(--radius-pill);
+      padding: .35rem 1rem;
+      font-size: .88rem;
+      color: var(--text-light);
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+      margin: 0;
+    }
+    .apply-checklist li::before {
+      content: '✓';
+      color: var(--emerald);
+      font-weight: 700;
+    }
+    .apply-email {
+      display: inline-block;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--indigo-light);
+      background: rgba(99,102,241,.12);
+      border: 1px solid rgba(99,102,241,.3);
+      border-radius: var(--radius-sm);
+      padding: .6rem 1.25rem;
+      margin-top: .5rem;
+      transition: all var(--transition);
+      text-decoration: none;
+    }
+    .apply-email:hover {
+      background: rgba(99,102,241,.22);
+      color: var(--white);
+    }
+    .apply-note {
+      font-size: .8rem;
+      color: var(--text-muted);
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+
+    /* No vacancies placeholder (hidden when vacancy exists) */
+    .no-vacancies { display: none; }
+
+    /* Sticky apply CTA on mobile */
+    .sticky-apply {
+      display: none;
+      position: fixed;
+      bottom: 1.25rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 100;
+      white-space: nowrap;
+    }
+    @media (max-width: 768px) {
+      .sticky-apply { display: inline-flex; }
+      .vacancy-header { padding: 1.5rem; }
+      .apply-box { padding: 1.5rem; }
+    }
+  </style>
+
+  <link rel="canonical" href="https://eclatsynergy.com/careers.html" />
+  <meta property="og:title"       content="Careers at Eclat Synergy – We're Hiring" />
+  <meta property="og:description" content="Dispatch and Distribution Manager vacancy in Aberdeen, UK. £44,900–£50,000 p.a. Join the Eclat Synergy team." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://eclatsynergy.com/careers.html" />
+  <meta property="og:site_name"   content="Eclat Synergy" />
+  <meta property="og:image"       content="https://eclatsynergy.com/images/og-cover.jpg" />
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Careers at Eclat Synergy – We're Hiring" />
+  <meta name="twitter:description" content="Dispatch and Distribution Manager vacancy in Aberdeen, UK. £44,900–£50,000 p.a. Join the Eclat Synergy team." />
+  <meta name="twitter:image"       content="https://eclatsynergy.com/images/og-cover.jpg" />
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "Dispatch and Distribution Manager",
+    "description": "Lead dispatch and distribution operations at Eclat Synergy. Oversee movement of goods from warehouse to customers, ensuring safe, efficient and on-schedule deliveries.",
+    "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Eclat Synergy",
+        "sameAs": "https://eclatsynergy.com"
+    },
+    "jobLocation": {
+        "@type": "Place",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Aberdeen",
+            "addressCountry": "GB"
+        }
+    },
+    "employmentType": "FULL_TIME",
+    "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "GBP",
+        "value": {
+            "@type": "QuantitativeValue",
+            "minValue": 44900,
+            "maxValue": 50000,
+            "unitText": "YEAR"
+        }
+    },
+    "url": "https://eclatsynergy.com/careers.html",
+    "datePosted": "2026-06-26"
+}
+  </script>
+<link rel="alternate" hreflang="en-GB" href="https://eclatsynergy.com/careers.html"/>
+<link rel="alternate" hreflang="en-DE" href="https://eclatsynergy.com/careers.html"/>
+<link rel="alternate" hreflang="x-default" href="https://eclatsynergy.com/careers.html"/>
+  <meta name="theme-color" content="#0F172A" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ── Navbar (shared across all pages) ── -->
+<header class="navbar" role="banner">
+  <div class="container nav-container">
+    <a href="index.html" class="nav-logo">Eclat <span class="accent">Synergy</span></a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="about.html">About Us</a></li>
+        <li class="has-mega-menu">
+          <button class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="mega-services">
+            Our Services
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+          </button>
+          <div class="mega-menu" id="mega-services" role="region" aria-label="Our Services">
+            <div class="mega-inner">
+
+              <!-- Col 1: NIN Services -->
+              <div class="mega-col">
+                <p class="mega-col-heading">NIN Services</p>
+                <ul>
+                  <li><a href="nin.html"><span class="mega-link-icon">🪪</span> NIN Enrolment (New)</a></li>
+                  <li><a href="nin-modification.html"><span class="mega-link-icon">✏️</span> NIN Modification</a></li>
+                  <li><a href="nin-slip-retrieval.html"><span class="mega-link-icon">🔍</span> NIN Slip Retrieval</a></li>
+                  <li><a href="nin-children.html"><span class="mega-link-icon">👶</span> Enrolment for Children</a></li>
+                  <li><a href="bvn.html"><span class="mega-link-icon">🔗</span> NIN–BVN Linkage</a></li>
+                </ul>
+              </div>
+
+              <!-- Col 2: Related Services -->
+              <div class="mega-col">
+                <p class="mega-col-heading">Related Services</p>
+                <ul>
+                  <li><a href="bvn.html"><span class="mega-link-icon">🏦</span> BVN Enrolment</a></li>
+                  <li><a href="passport.html"><span class="mega-link-icon">✈️</span> Passport Processing</a></li>
+                  <li><a href="notarisation.html"><span class="mega-link-icon">📜</span> Notarisation</a></li>
+                  <li><a href="mailbox.html"><span class="mega-link-icon">📬</span> Mailbox Rental</a></li>
+                  <li><a href="fulfilment.html"><span class="mega-link-icon">📦</span> Fulfilment Services</a></li>
+                  <li><a href="post.html"><span class="mega-link-icon">🌍</span> Post Worldwide</a></li>
+                  <li><a href="rentals.html"><span class="mega-link-icon">🚗</span> Car &amp; Van Rentals</a></li>
+                </ul>
+              </div>
+
+              <!-- CTA Panel -->
+              <div class="mega-cta">
+                <p class="mega-cta-heading">Book an Appointment</p>
+                <p class="mega-cta-body">NIMC-licensed centres across England, Scotland, Wales &amp; Germany.</p>
+                <ul class="mega-cta-facts">
+                  <li>⏱ ~15–30 min capture</li>
+                  <li>📅 Appointment required</li>
+                  <li>📞 +447450 444858</li>
+                </ul>
+                <a href="book-appointment.html" class="btn-primary">Book Appointment</a>
+                <a href="https://wa.me/447450444858" class="btn-secondary">💬 WhatsApp Us</a>
+              </div>
+
+            </div><!-- /.mega-inner -->
+          </div><!-- /.mega-menu -->
+        </li>
+        <li><a href="locations.html">Our Locations</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="book-appointment.html" class="btn-primary nav-cta">Book Appointment</a></li>
+      </ul>
+    </nav>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ── Page Hero ── -->
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span class="breadcrumb-sep" aria-hidden="true">›</span><span aria-current="page">Careers</span></nav>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{@type:ListItem,position:1,name:"Home","item":"https://eclatsynergy.com/index.html"},{@type:ListItem,position:2,name:"Careers"}]}</script>
+    <div class="hero-eyebrow"><span class="dot"></span>We're Hiring</div>
+    <h1>Careers at Eclat Synergy</h1>
+    <p class="lead">Join a growing team helping Nigerians in the diaspora access essential services across the UK and Germany.</p>
+  </div>
+</section>
+
+<main id="main">
+  <div class="container">
+    <div class="longform-layout">
+
+      <!-- TOC -->
+      <nav class="toc" aria-label="Page contents">
+        <h2>On this page</h2>
+        <ul>
+          <li><a href="#vacancy">Current Vacancy</a></li>
+          <li><a href="#responsibilities">Key Responsibilities</a></li>
+          <li><a href="#requirements">Requirements</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#how-to-apply">How to Apply</a></li>
+        </ul>
+      </nav>
+
+      <article>
+
+        <!-- Vacancy Header -->
+        <section id="vacancy" class="content-section reveal">
+          <div class="callout">
+            <h3><span aria-hidden="true">📢</span> 1 Active Vacancy</h3>
+            <ul>
+              <li>Dispatch and Distribution Manager — Aberdeen, UK</li>
+              <li>Full-time, Permanent · £44,900–£50,000 per annum</li>
+              <li>Closing: Applications reviewed on a rolling basis</li>
+            </ul>
+          </div>
+
+          <div class="vacancy-header">
+            <div class="vacancy-meta">
+              <span class="vacancy-badge emerald">🟢 Now Hiring</span>
+              <span class="vacancy-badge">📍 Aberdeen, UK</span>
+              <span class="vacancy-badge">⏱ Full-time · Permanent</span>
+              <span class="vacancy-badge amber">🪪 Job Code 1241</span>
+            </div>
+            <h2>Dispatch and Distribution Manager</h2>
+            <div class="salary-highlight">£44,900 – £50,000</div>
+            <div class="salary-sub">per annum · depending on experience · 37.5–40 hrs/week</div>
+          </div>
+
+          <p>We are seeking an experienced <strong>Dispatch and Distribution Manager</strong> to lead our dispatch and distribution operations. The successful candidate will oversee the movement of goods from warehouse to customers, ensuring deliveries are completed safely, efficiently and on schedule — all while maintaining full compliance with UK transport and health &amp; safety regulations.</p>
+        </section>
+
+        <!-- Responsibilities -->
+        <section id="responsibilities" class="content-section job-section reveal">
+          <h3>Key Responsibilities</h3>
+          <ul>
+            <li>Plan, organise and manage daily dispatch and distribution activities.</li>
+            <li>Supervise dispatch supervisors, warehouse staff and delivery drivers.</li>
+            <li>Ensure accurate picking, packing and timely dispatch of customer orders.</li>
+            <li>Manage transport schedules and optimise delivery routes.</li>
+            <li>Monitor inventory movement and coordinate with warehouse operations.</li>
+            <li>Develop and implement distribution strategies to improve efficiency and reduce costs.</li>
+            <li>Ensure compliance with transport legislation, health &amp; safety regulations and company policies.</li>
+            <li>Manage fleet utilisation, maintenance schedules and transport documentation.</li>
+            <li>Investigate delivery issues and implement corrective actions.</li>
+            <li>Prepare operational reports, KPIs and departmental budgets.</li>
+          </ul>
+        </section>
+
+        <!-- Requirements -->
+        <section id="requirements" class="content-section reveal">
+          <h3 style="color:var(--text-light);padding-bottom:.5rem;border-bottom:1px solid var(--navy-border);margin-bottom:1rem;">Requirements</h3>
+          <div class="requirements-grid">
+            <div class="req-card">
+              <h4><span aria-hidden="true">✅</span> Essential</h4>
+              <ul>
+                <li>Bachelor's degree in Logistics, Supply Chain Management, Business Management or a related discipline — or equivalent industry experience.</li>
+                <li>Minimum <strong>3 years' experience</strong> in dispatch, distribution or logistics management.</li>
+                <li>Strong leadership and team management skills.</li>
+                <li>Excellent planning, organisational and communication abilities.</li>
+                <li>Knowledge of <strong>UK transport regulations</strong> and warehouse operations.</li>
+                <li>Proficiency in Microsoft Office and warehouse/logistics management systems.</li>
+                <li>Clean driver's licence <em>(manual preferred)</em>.</li>
+              </ul>
+            </div>
+            <div class="req-card">
+              <h4><span aria-hidden="true">⭐</span> Desirable</h4>
+              <ul>
+                <li><strong>Certificate of Professional Competence (CPC)</strong>.</li>
+                <li>Experience managing multi-site distribution operations.</li>
+                <li>Knowledge of ERP or Warehouse Management Systems (WMS).</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Benefits -->
+        <section id="benefits" class="content-section reveal">
+          <h3 style="color:var(--text-light);padding-bottom:.5rem;border-bottom:1px solid var(--navy-border);margin-bottom:1rem;">Benefits</h3>
+          <div class="benefits-grid">
+            <div class="benefit-item">
+              <div class="benefit-icon">💷</div>
+              <div class="benefit-text"><strong>Competitive Salary</strong>£44,900–£50,000 p.a. DOE</div>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">🏦</div>
+              <div class="benefit-text"><strong>Company Pension</strong>Employer contributions included</div>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">🎯</div>
+              <div class="benefit-text"><strong>Annual Bonus</strong>Performance-based reward</div>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">🌴</div>
+              <div class="benefit-text"><strong>28 Days Annual Leave</strong>Including bank holidays</div>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">📈</div>
+              <div class="benefit-text"><strong>Career Development</strong>Ongoing training &amp; progression</div>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon">🤝</div>
+              <div class="benefit-text"><strong>Employee Assistance</strong>Health &amp; wellbeing programme</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- How to Apply -->
+        <section id="how-to-apply" class="content-section reveal">
+          <div class="apply-box">
+            <h3>Ready to Apply?</h3>
+            <p>Interested candidates should send their application directly to our team. We review applications on a rolling basis — early applications are encouraged.</p>
+            <ul class="apply-checklist">
+              <li>Up-to-date CV</li>
+              <li>Cover letter outlining relevant experience</li>
+            </ul>
+            <p style="color:var(--text-muted);font-size:.9rem;margin-bottom:.5rem;">Send your application to:</p>
+            <a href="mailto:info@eclatsynergy.com?subject=Application%20%E2%80%93%20Dispatch%20and%20Distribution%20Manager" class="apply-email">
+              📧 info@eclatsynergy.com
+            </a>
+            <p class="apply-note">Only shortlisted applicants will be contacted. We are an equal opportunities employer.</p>
+          </div>
+        </section>
+
+      </article>
+    </div>
+  </div>
+
+  <!-- CTA Banner -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Questions About This Role?</h2>
+        <p>Get in touch with our team and we'll be happy to help with any queries before you apply.</p>
+        <div class="cta-banner-buttons">
+          <a href="mailto:info@eclatsynergy.com?subject=Careers%20Enquiry" class="btn-primary">📧 Email Us</a>
+          <a href="tel:+447450444858" class="btn-secondary">📞 Call Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Sticky mobile apply button -->
+<a href="mailto:info@eclatsynergy.com?subject=Application%20%E2%80%93%20Dispatch%20and%20Distribution%20Manager" class="btn-primary sticky-apply" aria-label="Apply by email">
+  📧 Apply Now
+</a>
+
+<!-- ── Footer ── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-text">Eclat <span class="accent">Synergy</span></div>
+        <p>Empowering Nigerians in the diaspora with identity, documentation, logistics and mobility services across the UK, Wales and Germany.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link" aria-label="Facebook">f</a>
+          <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+          <a href="#" class="social-link" aria-label="Instagram">ig</a>
+          <a href="https://wa.me/447450444858" class="social-link" aria-label="WhatsApp">W</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="nin.html">NIN Enrolment</a></li>
+          <li><a href="bvn.html">BVN Enrolment</a></li>
+          <li><a href="passport.html">Passport Processing</a></li>
+          <li><a href="notarisation.html">Notarisation</a></li>
+          <li><a href="mailbox.html">Mailbox Rental</a></li>
+          <li><a href="fulfilment.html">Fulfilment</a></li>
+          <li><a href="post.html">Post Worldwide</a></li>
+          <li><a href="rentals.html">Car/Van Rentals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="locations.html">Our Locations</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="tel:+447450444858">+447450 444858</a></li>
+          <li><a href="mailto:info@eclatsynergy.com">info@eclatsynergy.com</a></li>
+          <li><a href="https://wa.me/447450444858">WhatsApp Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span class="js-year"></span> Eclat Synergy. All rights reserved.</p>
+      <p>Registered in England &amp; Wales. Partner of FUWA Agribusiness &amp; Drivalia.</p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/447450444858" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+
+<!-- ── Mobile sticky book bar ── -->
+<div class="mobile-book-bar" aria-label="Quick actions">
+  <a href="book-appointment.html" class="mbb-primary">📅 Book Appointment</a>
+  <a href="https://wa.me/447450444858" class="mbb-wa" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<!-- ── Cookie / Privacy Banner ── -->
+<div class="cookie-banner" id="cookie-banner" role="alert" aria-live="polite">
+  <p>We use essential cookies to keep this site working. By continuing you agree to our <a href="privacy.html">Privacy Policy</a>. We do not use tracking or advertising cookies.</p>
+  <div class="cookie-banner-btns">
+    <button class="cookie-accept" id="cookie-accept">Accept</button>
+    <button class="cookie-decline" id="cookie-decline">Decline</button>
+  </div>
+</div>
+
+  <!-- Cookie banner JS -->
+  <script>
+    (function(){
+      if(!localStorage.getItem('cookie-consent')){
+        document.getElementById('cookie-banner').classList.add('visible');
+      }
+      document.getElementById('cookie-accept').addEventListener('click',function(){
+        localStorage.setItem('cookie-consent','accepted');
+        document.getElementById('cookie-banner').classList.remove('visible');
+      });
+      document.getElementById('cookie-decline').addEventListener('click',function(){
+        localStorage.setItem('cookie-consent','declined');
+        document.getElementById('cookie-banner').classList.remove('visible');
+      });
+    })();
+  </script>
+
+  <!-- Active nav JS -->
+  <script>
+    (function(){
+      var path = window.location.pathname.split('/').pop() || 'index.html';
+      document.querySelectorAll('.nav-menu > li > a').forEach(function(a){
+        var href = a.getAttribute('href');
+        if(href === path || (path === '' && href === 'index.html')){
+          a.setAttribute('aria-current','page');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

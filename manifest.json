@@ -1,0 +1,17 @@
+{
+  "name": "Eclat Synergy",
+  "short_name": "Eclat Synergy",
+  "description": "NIN & BVN enrolment, passport processing, notarisation and more.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%234F46E5'/><text y='22' x='5' font-size='18' fill='white' font-family='sans-serif' font-weight='bold'>E</text></svg>",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
