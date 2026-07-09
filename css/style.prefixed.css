@@ -1584,12 +1584,12 @@ table.loc-table {
   color: var(--white);
 }
 @media (max-width: 768px) {
-  .mobile-book-bar { display: flex; }
-  /* Push page content up so bar doesn't overlap footer, accounting for safe area */
-  body { padding-bottom: calc(80px + env(safe-area-inset-bottom)); }
-  /* Move WhatsApp FAB above the bar */
-  .whatsapp-fab { bottom: calc(6rem + env(safe-area-inset-bottom)); right: 1rem; width: 48px; height: 48px; }
-  .whatsapp-fab svg { width: 22px; height: 22px; }
+  .mobile-book-bar { display: none !important; }
+  /* Remove body padding since bottom bar is removed */
+  body { padding-bottom: 0; }
+  /* Position WhatsApp FAB at standard mobile bottom height */
+  .whatsapp-fab { bottom: calc(1.5rem + env(safe-area-inset-bottom)); right: 1.25rem; width: 50px; height: 50px; }
+  .whatsapp-fab svg { width: 24px; height: 24px; }
 }
 
 /* ─── Breadcrumbs ────────────────────────────────────────────────── */
