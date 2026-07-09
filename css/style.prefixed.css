@@ -64,6 +64,12 @@ body {
   -webkit-tap-highlight-color: transparent; /* Remove gray tap highlight */
 }
 
+/* Prevent scrolling when mobile menu is open */
+body.menu-open {
+  overflow: hidden;
+  height: 100vh;
+}
+
 /* Prevent text selection on interactive elements like a native app */
 a, button, .service-card, .blog-card, .pricing-card {
   -moz-user-select: none;
@@ -1490,6 +1496,7 @@ table.loc-table {
     justify-content: space-between;
   }
   .nav-dropdown {
+    display: none;
     position: static;
     transform: none;
     box-shadow: none;
@@ -1498,8 +1505,13 @@ table.loc-table {
     border-radius: 0;
     padding: 0 0 0 1rem;
     margin-top: .25rem;
+    opacity: 1;
+    pointer-events: auto;
   }
-  .nav-dropdown.open { opacity: 1; pointer-events: auto; transform: none; }
+  .nav-dropdown.open {
+    display: block;
+    transform: none;
+  }
   .nav-hamburger { display: flex; }
   .nav-cta { display: none; }
 

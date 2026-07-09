@@ -41,6 +41,7 @@ function initMobileMenu() {
     const open = menu.classList.toggle('mobile-open');
     hamburger.classList.toggle('open', open);
     hamburger.setAttribute('aria-expanded', open);
+    document.body.classList.toggle('menu-open', open);
   });
 
   // Close on outside click
@@ -49,6 +50,7 @@ function initMobileMenu() {
       menu.classList.remove('mobile-open');
       hamburger.classList.remove('open');
       hamburger.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('menu-open');
     }
   });
 }
