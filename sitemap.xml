@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://eclatsynergy.com/</loc><priority>1.0</priority></url>
   <url><loc>https://eclatsynergy.com/nin.html</loc><priority>0.95</priority></url>
@@ -31,4 +31,7 @@
   <url><loc>https://eclatsynergy.com/blog-passport-from-uk.html</loc><priority>0.75</priority></url>
   <url><loc>https://eclatsynergy.com/blog-documents-checklist.html</loc><priority>0.7</priority></url>
   <url><loc>https://eclatsynergy.com/blog-become-nin-agent.html</loc><priority>0.7</priority></url>
+  <url><loc>https://eclatsynergy.com/blog-diaspora-nin-centres-uk.html</loc><priority>0.8</priority></url>
+  <url><loc>https://eclatsynergy.com/blog-nin-registration-london.html</loc><priority>0.8</priority></url>
+  <url><loc>https://eclatsynergy.com/blog-nin-registration-online.html</loc><priority>0.8</priority></url>
 </urlset>
