@@ -1,0 +1,32 @@
+{
+    "name": "eclat-synergy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm run build:css && npm run build:js",
+        "build:css": "npx postcss css/style.css -o css/style.prefixed.css",
+        "build:js": "npx babel js/script.js --out-file js/script.es5.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hephzibah204/Eclat-Synergy.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/hephzibah204/Eclat-Synergy/issues"
+    },
+    "homepage": "https://github.com/hephzibah204/Eclat-Synergy#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.29.7",
+        "@babel/core": "^7.29.7",
+        "@babel/preset-env": "^7.29.7",
+        "autoprefixer": "^10.5.2",
+        "postcss": "^8.5.16",
+        "postcss-cli": "^11.0.1"
+    }
+}
